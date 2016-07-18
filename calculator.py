@@ -11,7 +11,7 @@ def judge:
     			self.a = int(input('a='))
    				self.b = int(input('b='))
     			self.c = int(input('c='))
-    			delta = b*b-4*a*c
+    			delta = self.b*self.b-4*self.a*self.c
     			return delta
 				def quadratic(delta,q,p,m,n):                                                                                              
     			if delta<0:
