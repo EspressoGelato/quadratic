@@ -17,7 +17,7 @@ def judge:
     			if delta<0:
 					print('no answer')
     			elif delta=0
-					q=(-self.b)/2*self.a
+					q=(-self.b)/2*(self.a)
 					print('the answer is = %s % (q))
 				else:
         			p = math.sqrt(s)
